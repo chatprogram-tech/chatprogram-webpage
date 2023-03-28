@@ -1,73 +1,45 @@
-<!DOCTYPE html>
 <html>
-
 <head>
-  <title>ChatProgram</title>
-  <meta charset="utf-8">
+    <title>ChatProgram 产品主页</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!--Importing Bootstrap theme-->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" crossorigin="anonymous">
+    <!-- 引用 Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </head>
-
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">ChatProgram</a>
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+<div class="jumbotron text-center">
+    <h1>ChatProgram 产品主页</h1>
+    <p>ChatProgram 能够根据需求文档，快速生成一整套应用程序，提高程序员的生产力，降低初级用户写程序的门槛，从而减小开发者们的负担。</p>
+</div>
 
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About us</a>
-        </li>
-      </ul>
+<div class="container">
+    <h2>ChatProgram 特点</h2>
+    <ul>
+        <li>自动化：ChatProgram 可以依据文档来自动化生成整个项目，大大节省了开发者的时间和精力。</li>
+        <li>prompt engineering：ChatProgram 做了详尽的 prompt engineering，避免了用户在接口方面的疑惑和困扰，提升了用户使用体验。</li>
+        <li>用户体验优化：ChatProgram 在打造产品过程中，一直保持为用户着想的心态，力求做到机制简单、操作方便，提升用户体验。</li>
+        <li>降低用户开发门槛：ChatProgram 极大地缩小了初级用户开发的门槛，缓解了初学者学习进程中的紧张情绪和思维疲劳。</li>
+        <li>生产力提升：ChatProgram 仅仅需要用户输入简单的指令，在快速生成整套程序的同时，也提高了程序员的生产效率。</li>
+    </ul>
+    <br>
+    <h2>商务合作</h2>
+    <p>我们欢迎与各位商务合作，如果你对我们的产品感兴趣，欢迎联系我们：微信 rocon2001。</p>
+    <p>我们也创建了用户交流群，可以通过扫以下二维码来加入：</p>
+    <img src="qrcode.png" alt="ChatProgram 用户交流群二维码">
+
+    <a href="/app/"><button type="button" class="btn btn-primary">打开应用</button></a>
+
+    <br><br>
+    <h2>视频演示</h2>
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.bilibili.com/video/BV1NZ4y1a7ai" frameborder="0" allowfullscreen></iframe>
     </div>
-  </nav>
+</div>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8">
-        <h1>ChatProgram</h1>
-        <p>ChatProgram 能够根据需求文档，快速生成一整套应用程序，提高程序员的生产力，降低初级用户写程序的门槛，从而减小开发者们的负担。</p>
-        <ul>
-          <li>自动化：ChatProgram 可以依据文档来自动化生成整个项目，大大节省了开发者的时间和精力。</li>
-          <li>prompt engineering：ChatProgram 做了详尽的 prompt engineering，避免了用户在接口方面的疑惑和困扰，提升了用户使用体验。</li>
-          <li>用户体验优化：ChatProgram 在打造产品过程中，一直保持为用户着想的心态，力求做到机制简单、操作方便，提升用户体验。</li>
-          <li>降低用户开发门槛：ChatProgram 极大地缩小了初级用户开发的门槛，缓解了初学者学习进程中的紧张情绪和思维疲劳。</li>
-          <li>生产力提升：ChatProgram 仅仅需要用户输入简单的指令，在快速生成整套程序的同时，也提高了程序员的生产效率。</li>
-        </ul>
-        <p>我们欢迎与各位商务合作，如果你对我们的产品感兴趣，欢迎联系我们：XXX。</p>
-      </div>
-      <div class="col-md-4">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Scan the QR code to join our WeChat group!</h5>
-            <img src="path/to/qrcode.png" alt="WeChat group QR code" class="img-fluid">
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Watch our promo video!</h5>
-            <video class="embed-responsive" controls>
-              <source src="https://www.bilibili.com/video/BV1aA411A7pE" type="video/mp4" />
-            </video>
-          </div>
-        </div>
-
-        <a href="/app/" class="btn btn-primary">Open ChatProgram</a>
-      </div>
-    </div>
-  </div>
-
-  <!--Importing Bootstrap scripts-->
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" crossorigin="anonymous"></script>
 </body>
-
 </html>
