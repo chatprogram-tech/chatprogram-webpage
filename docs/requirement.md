@@ -1,6 +1,6 @@
 请给我写一个HTML的产品主页，所有文本需要用中文：
 产品叫ChatProgram
-需要引用一个bilibili视频
+需要引用一个bilibili视频 https://www.bilibili.com/video/BV1Js4y1D7Rd
 使用bootstrap主题
 
 
