@@ -3,6 +3,7 @@
         <title>ChatProgram 产品主页</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="referrer" content="no-referrer" />
         <link rel="stylesheet" href="./index.css" />
         <!-- <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
         <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
@@ -34,7 +35,19 @@
             <a class="app" href="/app/"><button type="button" class="btn btn-primary">打 开 应 用</button></a>
 
             <h2 class="title">视频演示</h2>
-            <iframe class="video" src="https://www.bilibili.com/video/BV1Js4y1D7Rd" frameborder="0" allowfullscreen></iframe>
+            <video
+                class="video"
+                webkit-playsinline=""
+                playsinline=""
+                preload="metadata"
+                crossorigin="anonymous"
+                src="https://cn-hbwh-fx-01-07.bilivideo.com/upgcxcode/42/93/1074649342/1074649342-1-16.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&amp;uipk=5&amp;nbs=1&amp;deadline=1680097948&amp;gen=playurlv2&amp;os=bcache&amp;oi=1939639299&amp;trid=000064069f6b60d04e1da4eb0359bcf40e1ah&amp;mid=544276112&amp;platform=html5&amp;upsig=07fcd2532089a651caa4c3f607702de5&amp;uparams=e,uipk,nbs,deadline,gen,os,oi,trid,mid,platform&amp;cdnid=3877&amp;bvc=vod&amp;nettype=0&amp;bw=61046&amp;logo=80000000"
+                poster="//i2.hdslb.com/bfs/archive/c04ae20f284dc29dff084e03ef72804524ab9a36.jpg@480w_270h_1c"
+                style="opacity: 1"
+                autoplay
+                controls
+            ></video>
+            <!-- <iframe class="video" style="height: 400px" src="https://www.bilibili.com/video/BV1Js4y1D7Rd" frameborder="0" allowfullscreen security="restricted" sandbox="allow-forms allow-scripts allow-same-origin allow-popups"></iframe> -->
         </div>
     </body>
 </html>
