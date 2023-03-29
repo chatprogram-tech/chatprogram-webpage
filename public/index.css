@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #eeeeee;
+}
+.header > h1 {
+    margin-bottom: 15px;
+}
+.container {
+    padding: 50px 150px;
+}
+.container .title {
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.container .list {
+    padding-left: 40px;
+}
+.container .qrBox {
+    display: flex;
+    align-items: center;
+    margin: 40px 0;
+}
+.container .qrBox .qr {
+    width: 300px;
+    margin: 0 auto;
+}
+.container .app {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.container .app button {
+    width: 20vw;
+    height: 50px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #333;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.container .app button:hover {
+    background-color: #555;
+    width: 40vw;
+}
+.video {
+    width: 100%;
+    height: 600px;
+}
+@media screen and (max-width: 500px) {
+    .header {
+        height: fit-content;
+        padding: 20px 20px;
+    }
+    .header > h1 {
+        font-size: 27px;
+    }
+    .header > p {
+        font-size: 12px;
+    }
+    .container {
+        padding: 20px;
+    }
+    .container .app button {
+        width: 80vw;
+    }
+}
